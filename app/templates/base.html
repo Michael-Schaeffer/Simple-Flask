@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/nav.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <title>Simple Flask</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="flex-container" id="flex_nav">
+        <div class="burger-icon" onclick="clickBurger()">
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+            <div class="burger-line"></div>
+        </div>
+        <div class="flex-item"><a href="/">Home</a></div>
+        <div class="flex-item"><a href="/admin">Admin</a></div>
+        <div class="flex-item"><a href="/users">Users</a></div>
+    </div>
+    {% block content %}
+    {% endblock content %}
+
+</body>
+
+</html>

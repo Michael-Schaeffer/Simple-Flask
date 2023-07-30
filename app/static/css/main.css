@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 1000px;
+    width: 95%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    color: rgba(40, 40, 40, 0.8);
+}
+
+p {
+    color: rgba(40, 40, 40, 0.8);
+}
+
+.content-box {
+    border-style: solid;
+    border-width: 0.5;
+    border-color: rgba(40, 40, 40, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
