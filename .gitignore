@@ -1,0 +1,5 @@
+MyEnv
+app/__pycache__/
+app/admin/__pycache__/
+app/main/__pycache__/
+app/models/__pycache__/
